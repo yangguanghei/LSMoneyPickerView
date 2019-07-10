@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26DB46822D58840001F2DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB46722D58840001F2DE5 /* AppDelegate.m */; };
+		A26DB46B22D58840001F2DE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB46A22D58840001F2DE5 /* ViewController.m */; };
+		A26DB46E22D58840001F2DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26DB46C22D58840001F2DE5 /* Main.storyboard */; };
+		A26DB47022D5884D001F2DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26DB46F22D5884D001F2DE5 /* Assets.xcassets */; };
+		A26DB47322D5884D001F2DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26DB47122D5884D001F2DE5 /* LaunchScreen.storyboard */; };
+		A26DB47622D5884D001F2DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB47522D5884D001F2DE5 /* main.m */; };
+		A26DB48022D5884D001F2DE5 /* LSMoneyPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB47F22D5884D001F2DE5 /* LSMoneyPickerViewTests.m */; };
+		A26DB48B22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB48A22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26DB47C22D5884D001F2DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26DB45B22D58840001F2DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26DB46222D58840001F2DE5;
+			remoteInfo = LSMoneyPickerView;
+		};
+		A26DB48722D5884D001F2DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26DB45B22D58840001F2DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26DB46222D58840001F2DE5;
+			remoteInfo = LSMoneyPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26DB46322D58840001F2DE5 /* LSMoneyPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSMoneyPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26DB46622D58840001F2DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A26DB46722D58840001F2DE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A26DB46922D58840001F2DE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A26DB46A22D58840001F2DE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A26DB46D22D58840001F2DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26DB46F22D5884D001F2DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26DB47222D5884D001F2DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26DB47422D5884D001F2DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26DB47522D5884D001F2DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26DB47B22D5884D001F2DE5 /* LSMoneyPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMoneyPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26DB47F22D5884D001F2DE5 /* LSMoneyPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMoneyPickerViewTests.m; sourceTree = "<group>"; };
+		A26DB48122D5884D001F2DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26DB48622D5884D001F2DE5 /* LSMoneyPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMoneyPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26DB48A22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMoneyPickerViewUITests.m; sourceTree = "<group>"; };
+		A26DB48C22D5884D001F2DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26DB46022D58840001F2DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB47822D5884D001F2DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB48322D5884D001F2DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26DB45A22D58840001F2DE5 = {
+			isa = PBXGroup;
+			children = (
+				A26DB46522D58840001F2DE5 /* LSMoneyPickerView */,
+				A26DB47E22D5884D001F2DE5 /* LSMoneyPickerViewTests */,
+				A26DB48922D5884D001F2DE5 /* LSMoneyPickerViewUITests */,
+				A26DB46422D58840001F2DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26DB46422D58840001F2DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26DB46322D58840001F2DE5 /* LSMoneyPickerView.app */,
+				A26DB47B22D5884D001F2DE5 /* LSMoneyPickerViewTests.xctest */,
+				A26DB48622D5884D001F2DE5 /* LSMoneyPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26DB46522D58840001F2DE5 /* LSMoneyPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A26DB46622D58840001F2DE5 /* AppDelegate.h */,
+				A26DB46722D58840001F2DE5 /* AppDelegate.m */,
+				A26DB46922D58840001F2DE5 /* ViewController.h */,
+				A26DB46A22D58840001F2DE5 /* ViewController.m */,
+				A26DB46C22D58840001F2DE5 /* Main.storyboard */,
+				A26DB46F22D5884D001F2DE5 /* Assets.xcassets */,
+				A26DB47122D5884D001F2DE5 /* LaunchScreen.storyboard */,
+				A26DB47422D5884D001F2DE5 /* Info.plist */,
+				A26DB47522D5884D001F2DE5 /* main.m */,
+			);
+			path = LSMoneyPickerView;
+			sourceTree = "<group>";
+		};
+		A26DB47E22D5884D001F2DE5 /* LSMoneyPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26DB47F22D5884D001F2DE5 /* LSMoneyPickerViewTests.m */,
+				A26DB48122D5884D001F2DE5 /* Info.plist */,
+			);
+			path = LSMoneyPickerViewTests;
+			sourceTree = "<group>";
+		};
+		A26DB48922D5884D001F2DE5 /* LSMoneyPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A26DB48A22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m */,
+				A26DB48C22D5884D001F2DE5 /* Info.plist */,
+			);
+			path = LSMoneyPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26DB46222D58840001F2DE5 /* LSMoneyPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26DB48F22D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerView" */;
+			buildPhases = (
+				A26DB45F22D58840001F2DE5 /* Sources */,
+				A26DB46022D58840001F2DE5 /* Frameworks */,
+				A26DB46122D58840001F2DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSMoneyPickerView;
+			productName = LSMoneyPickerView;
+			productReference = A26DB46322D58840001F2DE5 /* LSMoneyPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26DB47A22D5884D001F2DE5 /* LSMoneyPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26DB49222D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerViewTests" */;
+			buildPhases = (
+				A26DB47722D5884D001F2DE5 /* Sources */,
+				A26DB47822D5884D001F2DE5 /* Frameworks */,
+				A26DB47922D5884D001F2DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26DB47D22D5884D001F2DE5 /* PBXTargetDependency */,
+			);
+			name = LSMoneyPickerViewTests;
+			productName = LSMoneyPickerViewTests;
+			productReference = A26DB47B22D5884D001F2DE5 /* LSMoneyPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A26DB48522D5884D001F2DE5 /* LSMoneyPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26DB49522D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerViewUITests" */;
+			buildPhases = (
+				A26DB48222D5884D001F2DE5 /* Sources */,
+				A26DB48322D5884D001F2DE5 /* Frameworks */,
+				A26DB48422D5884D001F2DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26DB48822D5884D001F2DE5 /* PBXTargetDependency */,
+			);
+			name = LSMoneyPickerViewUITests;
+			productName = LSMoneyPickerViewUITests;
+			productReference = A26DB48622D5884D001F2DE5 /* LSMoneyPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26DB45B22D58840001F2DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "中创慧谷";
+				TargetAttributes = {
+					A26DB46222D58840001F2DE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A26DB47A22D5884D001F2DE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A26DB46222D58840001F2DE5;
+					};
+					A26DB48522D5884D001F2DE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A26DB46222D58840001F2DE5;
+					};
+				};
+			};
+			buildConfigurationList = A26DB45E22D58840001F2DE5 /* Build configuration list for PBXProject "LSMoneyPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26DB45A22D58840001F2DE5;
+			productRefGroup = A26DB46422D58840001F2DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26DB46222D58840001F2DE5 /* LSMoneyPickerView */,
+				A26DB47A22D5884D001F2DE5 /* LSMoneyPickerViewTests */,
+				A26DB48522D5884D001F2DE5 /* LSMoneyPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26DB46122D58840001F2DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26DB47322D5884D001F2DE5 /* LaunchScreen.storyboard in Resources */,
+				A26DB47022D5884D001F2DE5 /* Assets.xcassets in Resources */,
+				A26DB46E22D58840001F2DE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB47922D5884D001F2DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB48422D5884D001F2DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26DB45F22D58840001F2DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26DB46B22D58840001F2DE5 /* ViewController.m in Sources */,
+				A26DB47622D5884D001F2DE5 /* main.m in Sources */,
+				A26DB46822D58840001F2DE5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB47722D5884D001F2DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26DB48022D5884D001F2DE5 /* LSMoneyPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26DB48222D5884D001F2DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26DB48B22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26DB47D22D5884D001F2DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26DB46222D58840001F2DE5 /* LSMoneyPickerView */;
+			targetProxy = A26DB47C22D5884D001F2DE5 /* PBXContainerItemProxy */;
+		};
+		A26DB48822D5884D001F2DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26DB46222D58840001F2DE5 /* LSMoneyPickerView */;
+			targetProxy = A26DB48722D5884D001F2DE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26DB46C22D58840001F2DE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26DB46D22D58840001F2DE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26DB47122D5884D001F2DE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26DB47222D5884D001F2DE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26DB48D22D5884D001F2DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A26DB48E22D5884D001F2DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26DB49022D5884D001F2DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26DB49122D5884D001F2DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A26DB49322D5884D001F2DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSMoneyPickerView.app/LSMoneyPickerView";
+			};
+			name = Debug;
+		};
+		A26DB49422D5884D001F2DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSMoneyPickerView.app/LSMoneyPickerView";
+			};
+			name = Release;
+		};
+		A26DB49622D5884D001F2DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSMoneyPickerView;
+			};
+			name = Debug;
+		};
+		A26DB49722D5884D001F2DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSMoneyPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LS.LSMoneyPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSMoneyPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26DB45E22D58840001F2DE5 /* Build configuration list for PBXProject "LSMoneyPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DB48D22D5884D001F2DE5 /* Debug */,
+				A26DB48E22D5884D001F2DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26DB48F22D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DB49022D5884D001F2DE5 /* Debug */,
+				A26DB49122D5884D001F2DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26DB49222D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DB49322D5884D001F2DE5 /* Debug */,
+				A26DB49422D5884D001F2DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26DB49522D5884D001F2DE5 /* Build configuration list for PBXNativeTarget "LSMoneyPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DB49622D5884D001F2DE5 /* Debug */,
+				A26DB49722D5884D001F2DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26DB45B22D58840001F2DE5 /* Project object */;
+}
