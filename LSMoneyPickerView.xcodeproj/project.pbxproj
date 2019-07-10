@@ -15,6 +15,7 @@
 		A26DB47622D5884D001F2DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB47522D5884D001F2DE5 /* main.m */; };
 		A26DB48022D5884D001F2DE5 /* LSMoneyPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB47F22D5884D001F2DE5 /* LSMoneyPickerViewTests.m */; };
 		A26DB48B22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB48A22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m */; };
+		A26DB49A22D58883001F2DE5 /* LSMoneyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A26DB49922D58883001F2DE5 /* LSMoneyPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A26DB48622D5884D001F2DE5 /* LSMoneyPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMoneyPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26DB48A22D5884D001F2DE5 /* LSMoneyPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMoneyPickerViewUITests.m; sourceTree = "<group>"; };
 		A26DB48C22D5884D001F2DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26DB49822D58883001F2DE5 /* LSMoneyPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMoneyPickerView.h; sourceTree = "<group>"; };
+		A26DB49922D58883001F2DE5 /* LSMoneyPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMoneyPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A26DB46522D58840001F2DE5 /* LSMoneyPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				A26DB49822D58883001F2DE5 /* LSMoneyPickerView.h */,
+				A26DB49922D58883001F2DE5 /* LSMoneyPickerView.m */,
 				A26DB46622D58840001F2DE5 /* AppDelegate.h */,
 				A26DB46722D58840001F2DE5 /* AppDelegate.m */,
 				A26DB46922D58840001F2DE5 /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				A26DB46B22D58840001F2DE5 /* ViewController.m in Sources */,
 				A26DB47622D5884D001F2DE5 /* main.m in Sources */,
+				A26DB49A22D58883001F2DE5 /* LSMoneyPickerView.m in Sources */,
 				A26DB46822D58840001F2DE5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
